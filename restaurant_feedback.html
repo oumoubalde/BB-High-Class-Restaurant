@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<!-- This website template was created by Balde -->
+<html lang="en">
+<head>
+	<link rel="stylesheet" href="restaurant_styles.css">
+	<title>BB High Class Restaurant </title>
+	<meta charset="utf-8">
+</head>
+<body>
+
+<div id="container">
+	<!-- Use the header area for the website name  or logo -->
+	<header>
+	  <table width="90%" align="center" cellpadding="10" cellspacing="10">
+	    <tbody>
+	      <tr>
+	        <td><a href="index.html"><img src="images/banb2_green_jellow.png" width="260" height="195" alt="B&B Restaurant logo"/></a></td>
+	        <td><a href="index.html"><img src="images/tiep.jpg" width="260" height="195" alt="Picture of foods"/></a></td>
+			<td><a href="index.html"><img src="images/fish_loko.jpg" width="260" height="195" alt="Picture of Fish"/></a></td>
+			<td><a href="index.html"><img src="images/smothies.jpg" width="175" height="195" alt="Picture of smothies"/></a></td>
+          </tr>
+        </tbody>
+      </table>
+	</header>
+	
+	<!-- Use the  navigation (nav) area to add hyperlinks to other pages within the website -->
+	<nav>
+		<a href="index.html">Home</a> &nbsp; &nbsp;
+		<div class="dropdown">
+			<a href="#" >Menu</a> &nbsp; &nbsp;
+		   <div class="dropdown-content">
+		        <a href="restaurant_menu_foods.html">Foods</a>
+				<a href="restaurant_menu_desserts.html">Desserts</a>
+				<a href="restaurant_menu_drinks.html">Drinks</a>
+		   </div>
+		</div>   
+		<a href="restaurant_feedback.html">Feedback</a>&nbsp; &nbsp;<a href="restaurant_helpfulsites.html">Helpful Sites</a>&nbsp; &nbsp;<a href="restaurant_contact.html">Contact Us</a> 
+	</nav>
+	
+	<!-- Use the main area to add the main content of the webpage -->
+	<main>
+		<h2>Feedback Form</h2>
+	<h3>We would love to hear your thoughts, concerns,  or problems. Please fill out the form below about your experience so we can improve!</h3>
+		
+		<form name="form1" method="post" action="mailto:oumoubalde84@gmail.com">
+  <p>First Name:
+    <input name="fnane" type="text" id="fnane" >
+  </p>
+  <p>Last Name:
+    <input type="text" name="lname" id="lname">
+  </p>
+  <p>Email:
+    <input type="email" name="email" id="email">
+  </p>
+  <p>Phone:
+    <input type="tel" name="tel" id="tel">
+  </p>
+  
+  <p>How did you like the food?  
+    <select name="reference" id="reference">
+      <option value="Exel">Excellent</option>
+      <option value="vgood">Very Good</option>
+      <option value="good">Good</option>
+      <option value="ngood">Not Good</option>
+    </select>
+  </p>
+  <p>Was you satisfied with the service provided?
+    <select name="reference" id="reference">
+      <option value="vsatis">Very Satisfied</option>
+      <option value="satis">Satisfied</option>
+      <option value="nsatis">Not Satisfied</option>
+      
+    </select>
+  </p>
+  <p>How did you hear about us?  
+    <select name="reference" id="reference">
+      <option value="ad">Advertisement</option>
+      <option value="friend">Friend</option>
+      <option value="Google">Google</option>
+      <option value="social">Social Media</option>
+      <option value="other">Other</option>
+    </select>
+  </p>
+  <p>Comment or suggetions:
+    <textarea name="questions" cols="25" rows="3" id="questions"></textarea>
+  </p>
+  <p>We are located at<br>
+	 2155 University Ave<br>
+	 Bronx, NY 10453</p>
+  <p>
+    <input name="submit" type="submit" id="submit" formmethod="POST" value="Submit">
+    <input type="reset" name="reset" id="reset" value="Reset">
+  </p>
+  <p>&nbsp;</p>
+</form>
+	</main>
+	
+	<!-- Use the footer area to add webpage footer content -->
+	<footer>
+		&copy; Copyright 2016. All Rights Reserved. <br>
+        Created by Oumou Balde On Nov 30, 2016. <br>
+		<a href="mailto:oumoubalde84@gmail.com">oumoubalde84@gmail.com</a>
+	
+	</footer>
+</div>
+</body>
+</html>
